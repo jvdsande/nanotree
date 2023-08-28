@@ -1,4 +1,5 @@
-import { element, NanoTreeElement, NanoTreeNode } from './nanotree'
+import { element } from '../methods/element'
+import { NanoTreeElement, NanoTreeNode } from '../interfaces'
 
 export function tree(
   Comp: string | ((...args: any[]) => any),

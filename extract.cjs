@@ -14,7 +14,7 @@ ts.forEachChild(file, node => {
   })
 })
 
-fs.writeFileSync('src/elements.ts', `import { tree, elementWrapper } from './jsx'
+fs.writeFileSync('src/methods/elements.ts', `import { tree, elementWrapper } from '../helpers/element'
 
 const elements = {
 ${elements.join('\n')}

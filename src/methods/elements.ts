@@ -1,4 +1,4 @@
-import { tree, elementWrapper } from './jsx'
+import { tree, elementWrapper } from '../helpers/element'
 
 const elements = {
   a: elementWrapper('a'),
